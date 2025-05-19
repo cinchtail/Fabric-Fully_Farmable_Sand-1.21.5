@@ -1,5 +1,6 @@
 package net.cinchtail.fullyfarmablesand;
 
+import net.cinchtail.fullyfarmablesand.loot.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +12,6 @@ public class FullyFarmableSand implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
