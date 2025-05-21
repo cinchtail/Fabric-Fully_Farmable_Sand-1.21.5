@@ -1,11 +1,11 @@
 {
-  "name": "fullyfarmablesand:desert_catacombs_connect_2/side_pool_2",
+  "name": "fullyfarmablesand:desert_catacombs/redstone_cover_right",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 4,
       "element": {
-        "location": "fullyfarmablesand:desert_catacombs/trap_rooms/trap_room_1",
+        "location": "fullyfarmablesand:desert_catacombs/redstone_covers/redstone_cover_right",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
