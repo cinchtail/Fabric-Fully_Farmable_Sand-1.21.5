@@ -6,7 +6,7 @@
       "weight": 4,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/redstone_covers/redstone_cover_right",
-        "processors": "minecraft:empty",
+        "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

@@ -1,12 +1,12 @@
 {
-  "name": "fullyfarmablesand:desert_catacombs_connect_1/side_pool_1",
+  "name": "fullyfarmablesand:desert_catacombs_entrance_connect/entrance",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 4,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/entrances/well_bottom_1",
-        "processors": "minecraft:empty",
+        "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 4,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/entrances/well_bottom_2",
-        "processors": "minecraft:empty",
+        "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
