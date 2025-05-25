@@ -7,14 +7,12 @@ import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.function.EnchantedCountIncreaseLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
-import net.minecraft.util.Identifier;
 
 public class ModLootTableModifiers {
-    private static final Identifier HUSK_ID
-            = Identifier.of("minecraft", "entities/husk");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
@@ -22,11 +20,13 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(Items.SAND))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 4.0f)).build());
+                        .with(ItemEntry.builder(Items.SAND)
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f,4.0f)))
+                                .apply(EnchantedCountIncreaseLootFunction.builder(registry, UniformLootNumberProvider.create(0, 1))));
 
                 tableBuilder.pool(poolBuilder.build());
             }
         });
     }
 }
+
