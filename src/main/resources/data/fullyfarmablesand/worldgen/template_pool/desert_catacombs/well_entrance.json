@@ -1,5 +1,5 @@
 {
-  "name": "fullyfarmablesand:desert_catacombs_entrance_connect/entrance",
+  "name": "fullyfarmablesand:desert_catacombs_well_entrance_connect/well_entrance",
   "fallback": "minecraft:empty",
   "elements": [
     {

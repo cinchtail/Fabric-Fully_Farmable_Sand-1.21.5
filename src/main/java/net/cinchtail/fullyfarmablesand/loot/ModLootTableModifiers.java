@@ -1,6 +1,5 @@
 package net.cinchtail.fullyfarmablesand.loot;
 
-
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Items;
