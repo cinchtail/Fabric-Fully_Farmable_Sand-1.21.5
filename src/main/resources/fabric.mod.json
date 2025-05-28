@@ -3,13 +3,13 @@
 	"id": "fullyfarmablesand",
 	"version": "${version}",
 	"name": "Fully Farmable Sand",
-	"description": "A very simple mod that make sand farmable by making husks drop sand and adding a structure that contains a husk spawner",
+	"description": "A simple mod that make sand farmable by making husks drop sand and adding a structure that contains a husk spawner",
 	"authors": [
 		"Cinchtail"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/cinchtail/Fabric-Fully_Farmable_Sand-1.21.5"
 	},
 	"license": "CC0-1.0",
 	"environment": "*",
@@ -20,11 +20,8 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.5",
+		"minecraft": ["1.21","1.21.1","1.21.2","1.21.3","1.21.4","1.21.5"],
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
