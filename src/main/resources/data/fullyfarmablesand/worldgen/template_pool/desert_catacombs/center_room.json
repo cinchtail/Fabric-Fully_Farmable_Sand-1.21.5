@@ -10,6 +10,15 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "fullyfarmablesand:desert_catacombs/center_rooms/center_room_2",
+        "processors": "fullyfarmablesand:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
