@@ -1,11 +1,11 @@
 {
-  "name": "fullyfarmablesand:desert_catacombs_staircase_entrance_connect/staircase_entrance",
+  "name": "fullyfarmablesand:desert_catacombs_medium_room_connect/medium_room_section",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 4,
       "element": {
-        "location": "fullyfarmablesand:desert_catacombs/entrances/staircase_1",
+        "location": "fullyfarmablesand:desert_catacombs/medium_rooms/medium_room_section_1",
         "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,16 +14,16 @@
     {
       "weight": 4,
       "element": {
-        "location": "fullyfarmablesand:desert_catacombs/entrances/staircase_2",
+        "location": "fullyfarmablesand:desert_catacombs/medium_rooms/medium_room_section_2",
         "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 4,
+      "weight": 10,
       "element": {
-        "location": "fullyfarmablesand:desert_catacombs/entrances/staircase_3",
+        "location": "fullyfarmablesand:desert_catacombs/medium_rooms/medium_room_section_3",
         "processors": "fullyfarmablesand:desert_catacombs",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

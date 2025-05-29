@@ -48,7 +48,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/custom_enemies/custom_husk_rare_1",
         "processors": "minecraft:empty",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/custom_enemies/custom_husk_rare_2",
         "processors": "minecraft:empty",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/custom_enemies/custom_zombie_rare_1",
         "processors": "minecraft:empty",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/custom_enemies/custom_skeleton_rare_1",
         "processors": "minecraft:empty",
