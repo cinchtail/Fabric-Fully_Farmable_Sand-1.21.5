@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 4,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/large_rooms/large_room_3",
         "processors": "fullyfarmablesand:desert_catacombs",
