@@ -28,6 +28,15 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "fullyfarmablesand:desert_catacombs/adapters/adapter_4",
+        "processors": "fullyfarmablesand:desert_catacombs",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
