@@ -21,11 +21,10 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(1f))
                         .with(ItemEntry.builder(Items.SAND)
                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f,4.0f)))
-                                .apply(EnchantedCountIncreaseLootFunction.builder(registry, UniformLootNumberProvider.create(0, 1))));
+                                .apply(EnchantedCountIncreaseLootFunction.builder(registry, UniformLootNumberProvider.create(.5f, 1))));
 
                 tableBuilder.pool(poolBuilder.build());
             }
         });
     }
 }
-
