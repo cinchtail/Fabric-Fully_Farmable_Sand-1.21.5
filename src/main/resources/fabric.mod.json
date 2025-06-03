@@ -8,7 +8,7 @@
 		"Cinchtail"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/fully-farmable-sand",
 		"sources": "https://github.com/cinchtail/Fabric-Fully_Farmable_Sand-1.21.5"
 	},
 	"license": "MIT",
@@ -20,7 +20,7 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": ["1.21","1.21.1","1.21.2","1.21.3","1.21.4","1.21.5"],
+		"minecraft": ["1.21.2","1.21.3","1.21.4","1.21.5"],
 		"java": ">=21",
 		"fabric-api": "*"
 	}
