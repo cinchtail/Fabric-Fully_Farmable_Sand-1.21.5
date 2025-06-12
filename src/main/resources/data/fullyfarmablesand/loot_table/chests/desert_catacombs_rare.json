@@ -19,12 +19,6 @@
           "name": "minecraft:music_disc_otherside",
           "weight": 3
         },
-
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_horse_armor",
@@ -37,8 +31,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 25.0,
-                "min": 15.0
+                "max": 35.0,
+                "min": 25.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -53,8 +47,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 25.0,
-                "min": 15.0
+                "max": 35.0,
+                "min": 25.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -69,8 +63,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 25.0,
-                "min": 15.0
+                "max": 35.0,
+                "min": 25.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -85,8 +79,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 25.0,
-                "min": 15.0
+                "max": 35.0,
+                "min": 25.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -101,8 +95,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 25.0,
-                "min": 15.0
+                "max": 35.0,
+                "min": 25.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -117,8 +111,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 25.0,
-                "min": 15.0
+                "max": 35.0,
+                "min": 25.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -133,8 +127,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 25.0,
-                "min": 15.0
+                "max": 35.0,
+                "min": 25.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -150,7 +144,7 @@
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 25.0,
-                "min": 15.0
+                "min": 20.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -163,7 +157,23 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 25.0,
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
               "options": "#minecraft:on_random_loot"
             }
           ],
@@ -173,8 +183,8 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 7.0,
-        "min": 3.0
+        "max": 4.0,
+        "min": 1.0
       }
     },
     {
@@ -202,27 +212,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bucket",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:redstone",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -240,7 +229,7 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 4.0,
+        "max": 3.0,
         "min": 1.0
       }
     },
@@ -324,11 +313,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:string",
+          "name": "minecraft:rotten_flesh",
           "weight": 10
         }
       ],
-      "rolls": 3.0
+      "rolls": 4.0
     }
   ],
   "random_sequence": "fullyfarmablesand:chests/desert_catacombs_rare"

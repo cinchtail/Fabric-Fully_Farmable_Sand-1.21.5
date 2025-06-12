@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 4,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/entrances/well_entrance_2",
         "processors": "fullyfarmablesand:desert_catacombs",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 4,
       "element": {
         "location": "fullyfarmablesand:desert_catacombs/entrances/well_entrance_3",
         "processors": "fullyfarmablesand:desert_catacombs",
